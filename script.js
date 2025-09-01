@@ -6,18 +6,16 @@ const result = document.getElementById("result");
 
 let notaSelecionada = null;
 
-// Clicar em uma nota
 botoes.forEach((botao) => {
   botao.addEventListener("click", () => {
-    botoes.forEach((b) => (b.style.backgroundColor = "#272e38")); // reset
-    botoes.forEach((b) => (b.style.color = "white")); // reset
-    botao.style.backgroundColor = "white"; // selecionado
+    botoes.forEach((b) => (b.style.backgroundColor = "#272e38"));
+    botoes.forEach((b) => (b.style.color = "white"));
+    botao.style.backgroundColor = "white";
     botao.style.color = "#141519";
     notaSelecionada = botao.textContent;
   });
 });
 
-// Clicar em SUBMIT
 submitBtn.addEventListener("click", () => {
   if (notaSelecionada) {
     boxAvaliacao.style.display = "none";
