@@ -15,3 +15,6 @@ O usuário pode avaliar e, após o envio, é direcionado para uma **tela de agra
 * **HTML5**
 * **CSS3** (responsividade e estilização)
 * **JavaScript** (funcionalidade do formulário e feedback do usuário)
+
+# Prévia:
+[![Assista ao vídeo](https://raw.githubusercontent.com/cyberscyt3/avaliacao/main/preview.jpg)](https://raw.githubusercontent.com/cyberscyt3/avaliacao/main/avaliacao-preview.mp4)
