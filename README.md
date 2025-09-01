@@ -17,4 +17,4 @@ O usuário pode avaliar e, após o envio, é direcionado para uma **tela de agra
 * **JavaScript** (funcionalidade do formulário e feedback do usuário)
 
 # Abra o link abaixo para testar o website:
-<a href="https://cyberscyt3.github.io/avaliacao/">Clique aqui</a>
+<a href="https://cyberscyt3.github.io/avaliacao/" target="_blank">Clique aqui</a>
