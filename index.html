@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Plataforma de avaliação</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-avaliacao">
+        <div class="estrela">
+          <img src="images/icon-star.svg" />
+        </div>
+        <!--estrela-->
+
+        <h1 class="texto-avalie">Avalie-nos</h1>
+        <p class="text-desc">
+          Por favor, nos diga como nos saímos com a sua solicitação de suporte.
+          Todo feedback é bem-vindo para nos ajudar a melhorar nossa oferta!
+        </p>
+        <div class="botoes">
+          <button class="botao">1</button>
+          <button class="botao">2</button>
+          <button class="botao">3</button>
+          <button class="botao">4</button>
+          <button class="botao">5</button>
+        </div>
+        <!--botoes-->
+
+        <div class="submit">
+          <button class="botao-submit">SUBMIT</button>
+        </div>
+        <!--submit-->
+      </div>
+      <!--box-avaliacao-->
+
+      <div class="box-thankyou" style="display: none">
+        <img
+          src="images/illustration-thank-you.svg"
+          alt="Obrigado"
+          class="img-thankyou"
+        />
+
+        <p id="result" class="avaliacao-selecionada">Você selecionou X de 5</p>
+
+        <h1 class="titulo-thankyou">Obrigado!</h1>
+
+        <p class="texto-thankyou">
+          Agradecemos por dedicar seu tempo para nos avaliar. Seu feedback é
+          muito importante para nós!
+        </p>
+      </div>
+      <!--box-thankyou-->
+
+      <script src="script.js"></script>
+    </div>
+    <!--container-->
+  </body>
+</html>
